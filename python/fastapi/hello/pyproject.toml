@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hello"
+version = "0.1.0"
+description = "Standard hello world app with FastAPI"
+authors = ["mcanueste <mcanueste@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.96.0"
+uvicorn = "^0.22.0"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
