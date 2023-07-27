@@ -22,7 +22,6 @@
         targetPkgs = pkgs: [
           pkgs.python311
           pkgs.poetry
-          pkgs.uvicorn
         ];
         runScript = "fish";
       };
